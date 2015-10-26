@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.example.shixiuwen.mytitlebar.MyTitleBar
+        android:id="@+id/myTitlebar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffcf9a57"
+        custom:leftButtonText="返回"
+        custom:leftButtonTextSize="10sp"
+        custom:leftButtonBackground="#ff7ee990"
+
+        custom:rightButtonText="确认"
+        custom:rightButtonTextSize="10sp"
+        custom:rightButtonBackground="#ff7ee990"
+
+        custom:titleText="自定义"
+        custom:titleTextSize="10sp"/>
+
+</RelativeLayout>
