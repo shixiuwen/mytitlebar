@@ -19,7 +19,7 @@ public class MainActivity extends ActionBarActivity {
         titleBar.mylistenerImpl(new MyTitleBar.Mylistener() {
             @Override
             public void leftClick() {
-                Toast.makeText(MainActivity.this,"左按键被点击了……",Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this,"我修改了代码",Toast.LENGTH_SHORT).show();
             }
 
             @Override
